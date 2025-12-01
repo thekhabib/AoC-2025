@@ -1,0 +1,27 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment (do not include your venv in git)
+venv/
+.env/
+.env.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Private input files (do not upload your AoC inputs)
+input
+*/input
+*/inputx
+
+# VS Code settings folder
+.vscode/
