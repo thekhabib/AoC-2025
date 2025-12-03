@@ -1,7 +1,7 @@
 import os
 
 base = os.path.dirname(__file__)
-input_file = os.path.join(base, "inputx")
+input_file = os.path.join(base, "input")
 
 total = 0
 

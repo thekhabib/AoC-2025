@@ -6,7 +6,7 @@ path = os.path.join(base, "input")
 s = 50
 cnt = 0
 
-with open(path, 'r') as file:
+with open(path) as file:
     for line in file:
         direction, value = line[0], int(line[1:])
         if direction == 'L':
